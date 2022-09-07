@@ -1,6 +1,7 @@
 <app-loading *ngIf="!isUserLocationReady; else viewReady"></app-loading>
 <ng-template #viewReady>
   <app-map-view></app-map-view>
+  <app-search-bar></app-search-bar>
   <app-button-location></app-button-location>
 </ng-template>
 <app-logo></app-logo>
